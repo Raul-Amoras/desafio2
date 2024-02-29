@@ -167,11 +167,22 @@ main {
     /** border: orange solid 3px; */
 }
 
-#bannerCarousel img, #bannerCarousel-2 img{
+#bannerCarousel img {
     height: 640px;
 }
 
-#bannerCarousel .text-banner, #bannerCarousel-2 .text-banner{
+#bannerCarousel-2 img{
+    height: 640px;
+}
+
+#bannerCarousel .text-banner {
+    position: absolute;
+    left: 144px;
+    top: 208px;
+    z-index: 1
+}
+
+#bannerCarousel-2 .text-banner{
     position: absolute;
     left: 144px;
     top: 208px;
