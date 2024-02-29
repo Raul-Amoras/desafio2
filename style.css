@@ -503,3 +503,64 @@ main {
 
     background-color: var(--success-color);
 }
+
+.container-fluid {
+    display: flex;
+}
+
+.container-fluid img{
+    margin-left: 132px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+
+    margin: 178px 0;
+}
+
+.text-p .text-h5{
+    font-size: 16px;
+    font-weight: bold;
+
+    color: var(--muted-color);
+}
+
+.text-p .text-h2{
+    width: 387px;
+
+    font-size: 40px;
+    font-weight: bold;
+
+    color: var(--text-color);
+}
+
+.text-p .text-h4{
+    width: 387px;
+
+    font-size: 20px;
+
+    color: var(--second-text-color);
+}
+
+.buttons .button-1 {
+    border: none;
+    border-radius: 5px;
+
+    padding: 15px 40px;
+    font-weight: bold;
+
+    color: var(--light-text-color);
+    background-color: var(--success-color);
+}
+
+.buttons .button-2 {
+    border:var(--success-color) solid 2px;
+    border-radius: 5px;
+
+    padding: 15px 40px;
+    font-weight: bold;
+
+    color: var(--success-color);
+    background-color: var(--light-text-color);
+}
