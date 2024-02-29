@@ -167,18 +167,18 @@ main {
     /** border: orange solid 3px; */
 }
 
-#bannerCarousel img{
+#bannerCarousel img, #bannerCarousel-2 img{
     height: 640px;
 }
 
-#bannerCarousel .text-banner{
+#bannerCarousel .text-banner, #bannerCarousel-2 .text-banner{
     position: absolute;
     left: 144px;
     top: 208px;
     z-index: 1
 }
 
-#bannerCarousel  .text-banner .t1 {
+#bannerCarousel  .text-banner .t1, #bannerCarousel-2  .text-banner .t1 {
     font-family: "Montserrate",sans-serif;
     font-size: 58px;
     font-weight: bold;
@@ -186,7 +186,7 @@ main {
     color: var(--light-text-color);
 }
 
-#bannerCarousel  .text-banner .t5 {
+#bannerCarousel  .text-banner .t5, #bannerCarousel-2  .text-banner .t5 {
     font-family: "Montserrate",sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -194,7 +194,7 @@ main {
     color: var(--light-text-color);
 }
 
-#bannerCarousel  .text-banner .t6 {
+#bannerCarousel  .text-banner .t6, #bannerCarousel-2  .text-banner .t6 {
     width: 315px;
 
     font-family: "Montserrate",sans-serif;
@@ -203,7 +203,7 @@ main {
     color: var(--light-text-color);
 }
 
-#bannerCarousel  .text-banner button {
+#bannerCarousel  .text-banner button, #bannerCarousel-2  .text-banner button {
     padding: 16px 40px;
     border: none;
     border-radius: 5px;
@@ -215,6 +215,23 @@ main {
 
 
     background-color: var(--success-color);
+}
+
+.buy-price {
+    display: flex;
+}
+
+.buy-price p {
+    font-size: 24px;
+    font-weight: bold;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 34px;
+    margin-right: 34px;
+
+
+    color: var(--light-text-color);
 }
 
 .dropdown-item{
