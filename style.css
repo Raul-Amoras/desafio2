@@ -17,7 +17,8 @@
     --second-text-color: #737373;
     --success-color: #2DC071;
     --muted-color: #BDBDBD;
-
+    --hover-color: #2A7CC7;
+    --hover-color-text: #2A7CC7
 }
 
 ul {
@@ -26,6 +27,16 @@ ul {
   
 a {
     text-decoration: none;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.link {
+    font-size: 0.875rem;
+    font-weight: 600;
 }
 
 .head {
@@ -179,6 +190,7 @@ main {
 }
 
 
+
 #bannerCarousel  .text-banner .t1 {
     font-family: "Montserrate",sans-serif;
     font-size: 58px;
@@ -216,6 +228,11 @@ main {
 
 
     background-color: var(--success-color);
+}
+
+#bannerCarousel .text-banner button:hover {
+    background: var(--hover-color);
+    transition: 0.5s;
 }
 
 .buy-price {
@@ -725,4 +742,107 @@ p.date-icon{
 
     margin-left: 10px;
     color: var(--primary-color);
+}
+
+.footer-start {
+    background-color: var(--light-gray-1);
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 111px;
+}
+
+.logo-footer {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    color: var(--text-color);
+}
+
+.social-media > a{
+    margin-left: 20px;
+}
+
+a.link{
+    color: var(--second-text-color);
+}
+
+.footer-center > article {
+    display: flex;
+
+    padding: 40px 111px;
+}
+
+.footer-center > article > nav {
+    margin-right: 30px;
+}
+
+.footer-center > article > nav > ul {
+    padding-right: 55px;
+
+    margin-top: 20px;
+}
+
+.footer-center > article > address > form > input {
+    font-size: 14px;
+    font-weight: 400;
+
+    width: 204px;
+    height: 58px;
+
+    background-color: #F9F9F9;
+
+    border: #E6E6E6 solid 1px;
+    border-radius: 5px;
+
+    padding-left: 20px;
+}
+
+.footer-center > article > address > form > button {
+    font-size: 14px;
+    font-weight: 400;
+
+    width: 117px;
+    height: 58px;
+
+    margin-left: -5px;
+
+    border: none;
+    border-radius: 5px;
+
+    color: var(--light-text-color);
+    background-color: var(--primary-color);
+}
+
+p.paragraf {
+    align-items: center;
+
+    font-size: 12px;
+    font-weight: 400;
+
+    margin-top: 5px;
+
+    color: var(--second-text-color);
+}
+
+.footer-end{
+    background-color: var(--light-gray-1);
+}
+
+.footer-end > article {
+    padding: 25px 0px;
+}
+
+.footer-end > article > p {
+    font-size: 14px;
+    font-weight: 700;
+
+    margin-left: 111px;
+    margin-bottom: 0;
+
+    color: var(--second-text-color);
 }
